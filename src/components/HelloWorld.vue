@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h2>Hello World!</h2>
+    <button class="btn btn-success"><i class="fa fa-home"></i></button>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -41,6 +43,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+h2{
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
 h3 {
   margin: 40px 0 0;
 }
