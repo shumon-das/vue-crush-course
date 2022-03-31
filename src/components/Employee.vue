@@ -1,8 +1,8 @@
 <template>
-    <div class="row mt-3">
+    <div class="row my-5">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-            <h2 class="text-center">Employee</h2>   
+            <h2 class="text-center">Manage State</h2>   
             <table class="table">
                 <thead>
                     <th>ID</th>
